@@ -45,3 +45,4 @@ for student in students:
     for subject, mark in student.marks.items():
         print(f'{subject}: {mark}')
     print(f'Средняя оценка: {student.average_mark()}')
+print("проба!")
