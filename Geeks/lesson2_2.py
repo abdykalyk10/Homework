@@ -32,9 +32,9 @@ if __name__ == "__main__":
     square1 = Square(5)
     square2 = Square(7)
 
-    rectangle1 = Rectangle(5, 8)
-    rectangle2 = Rectangle(10, 4)
-    rectangle3 = Rectangle(6, 3)
+    rectangle1 = Rectangle(5, 7)
+    rectangle2 = Rectangle(2, 4)
+    rectangle3 = Rectangle(6, 8)
 
     figures = [square1, square2, rectangle1, rectangle2, rectangle3]
 
