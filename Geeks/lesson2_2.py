@@ -32,7 +32,7 @@ if __name__ == "__main__":
     square1 = Square(5)
     square2 = Square(7)
 
-    rectangle1 = Rectangle(5, 7)
+    rectangle1 = Rectangle(5, 10)
     rectangle2 = Rectangle(2, 4)
     rectangle3 = Rectangle(6, 8)
 
