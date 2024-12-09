@@ -6,6 +6,7 @@ class Figure:
         pass
     def info(self):
         pass
+
 class Square(Figure):
     def __init__(self, __length):
         super().__init__()
@@ -28,15 +29,15 @@ class Rectangle(Figure):
        area = self.calculate_area()
        return f'Square side length: {self.__lenght}, {Figure.unit}, aarea: {area}{Figure.unit}'
 
-if __name__ == "__main__":
-    square1 = Square(5)
-    square2 = Square(7)
+#if __name__ == "__main__":
+square1 = Square(5)
+square2 = Square(7)
 
-    rectangle1 = Rectangle(7, 10)
-    rectangle2 = Rectangle(3, 4)
-    rectangle3 = Rectangle(5, 8)
+rectangle1 = Rectangle(7, 10)
+rectangle2 = Rectangle(3, 4)
+rectangle3 = Rectangle(5, 8)
 
-    figures = [square1, square2, rectangle1, rectangle2, rectangle3]
+figures = [square1, square2, rectangle1, rectangle2, rectangle3]
 
-    for figure in figures:
-        print(figure.info())
+for figure in figures:
+    print(figure.info())
